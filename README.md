@@ -4,6 +4,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 Pokemon Deck App is a web application that displays detailed information about various Pokemon. The application is built using Next.js, Tailwind CSS, and integrates with the PokeAPI to fetch Pokemon data.
 
+<img width="1495" alt="pokemon-deck" src="https://github.com/Restu-Armando/Pokemon-Deck-App/assets/76863245/8ef63ed1-c814-4e6f-b91d-4d93260f7287">
+
+
 ## Features
 
 - Display a list of Pokemon with their images, names, and types.
