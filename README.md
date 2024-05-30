@@ -1,5 +1,77 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# Pokemon Deck App
+
+Pokemon Deck App is a web application that displays detailed information about various Pokemon. The application is built using Next.js, Tailwind CSS, and integrates with the PokeAPI to fetch Pokemon data.
+
+## Features
+
+- Display a list of Pokemon with their images, names, and types.
+- View detailed information about each Pokemon including abilities, stats, and locations.
+- Responsive design that adapts to different screen sizes.
+- Tooltips for additional information about abilities.
+- Smooth transitions and modern UI components.
+
+## Technologies Used
+
+- **Next.js**: A React framework for server-rendered applications.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **TypeScript**: A statically typed superset of JavaScript.
+- **PokeAPI**: A free API to access Pokemon information.
+
+## Getting Started
+
+Follow these steps to set up the project locally:
+
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/pokemon-deck-app.git
+    cd pokemon-deck-app
+    ```
+
+2. **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3. **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+
+4. **Open the application:**
+    Open your browser and navigate to `http://localhost:3000`.
+
+## Project Structure
+
+- **components/**: Contains reusable UI components such as `Footer`, `Header`, etc.
+- **pages/**: Next.js pages for routing. Main pages include:
+  - `index.tsx`: Main page displaying the list of Pokemon.
+  - `[name].tsx`: Dynamic route for displaying detailed information about a specific Pokemon.
+- **styles/**: Global CSS and Tailwind CSS configurations.
+- **public/**: Static assets like images.
+
+## API Reference
+
+This project uses the PokeAPI to fetch Pokemon data. You can find more information about the API [here](https://pokeapi.deno.dev).
+
+## Footer
+
+This is a sample footer text:
+```jsx
+const Footer = () => {
+  const getCurrentYear = () => new Date().getFullYear();
+
+  return (
+    <footer className="bg-zinc-600 py-4">
+      <div className="container mx-auto flex flex-col items-center justify-center text-center">
+        <p className="text-sm text-gray-300">
+          &copy; {getCurrentYear()} Restu Armando | All rights reserved
+        </p>
+        <p className="text-sm text-gray-300 mt-2">
+          Data provided by <a href="https://pokeapi.deno.dev" className="text-blue-400 hover:underline">PokeAPI
+
+
 ## Getting Started
 
 First, run the development server:
